@@ -1,4 +1,4 @@
-Index your favorite weekly archive and search them. Current script does this for Devops Weekly, but its easy to do modifications to do others like Ruby Weekly or Perl Weekly.      
+Index your favorite weekly archive and search them using elasticsearch. Current script does this for Devops Weekly, but its easy to do modifications to do others like Ruby Weekly or Perl Weekly. 
     
     $ curl 'localhost:9200/_search?q=puppet&pretty=true'
     {
